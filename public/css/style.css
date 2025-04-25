@@ -1,0 +1,117 @@
+body {
+  font-family: "Plus Jakarta Sans", serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+.navbar {
+  height: 5rem;
+  background: white;
+}
+.nav-link {
+  color: #222222 !important;
+}
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+.f-info-links a:hover {
+  text-decoration: underline;
+  color: rgb(1, 51, 51);
+}
+.f-info-links,
+.f-info-socials,
+.f {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.f-info {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  height: 8rem;
+  flex-wrap: wrap;
+  align-items: space-evenly;
+  text-align: center;
+  background-color: #ebebeb;
+}
+.f-info-socials i {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+.f-info-socials i:hover {
+  font-size: 1.5rem;
+  color: #222222;
+}
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem;
+}
+
+.card-text p {
+  text-decoration: none !important;
+  font-weight: 400;
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.card-img-top2 {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+  height: 30rem;
+}
+
+#map {
+  height: 500px;
+  width: 100vh;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.no-listings-message {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.no-listings-message i {
+  font-size: 3rem;
+  color: #fe424d;
+  margin-bottom: 1rem;
+}
+
+.no-listings-message p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.no-listings-message a {
+  text-decoration: none;
+  font-size: 1rem;
+}
